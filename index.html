@@ -19,9 +19,9 @@
         Ежедневно 9:00 — 21:00
       </div>
       <ul class="header__ul">
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Оплата</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li class="header__li"><a class="header__a" href="#">Доставка</a></li>
+        <li class="header__li"><a class="header__a" href="#">Оплата</a></li>
+        <li class="header__li"><a class="header__a" href="#">Контакты</a></li>
       </ul>
     </header>
     <section class="navigation">
@@ -29,33 +29,43 @@
         <img src="./icons/navigation/logo.svg" height="80px">
       </div>
       <div>
-        <div class="navigation__upper-block">
-
+        <div class="main">
+          <button class="button-open-menu"><img src="./icons/navigation/main/burger.svg"></button>
+          <div class="search-line">
+            <input class="search-line__input" placeholder="Поиск товаров...">
+            <button class="button-search">Найти</button>
+          </div>
+          <div class="main__link link-wrap">
+            <a class="square-link" href="#"><img src="./icons/navigation/main/tg.svg"></a>
+          </div>
+          <div class="main__link link-wrap">
+            <a class="square-link" href="#"><img src="./icons/navigation/main/wa.svg"></a>
+          </div>
         </div>
         <ul class="menu">
-          <li class="menu__item"><img src="./icons/navigation/main/burn_promos.svg"> Акции</li>
-          <li class="menu__item"><img src="./icons/navigation/main/hot_offers.svg"> Горячее предложение</li>
-          <li class="menu__item"><img src="./icons/navigation/main/gift_sets.svg"> Подарочные наборы</li>
-          <li class="menu__item"><img src="./icons/navigation/main/events.svg"> События</li>
-          <li class="menu__item"><img src="./icons/navigation/main/brands.svg"> Наши бренды</li>
+          <li class="menu__item"><img src="./icons/navigation/menu/burn_promos.svg"> Акции</li>
+          <li class="menu__item"><img src="./icons/navigation/menu/hot_offers.svg"> Горячее предложение</li>
+          <li class="menu__item"><img src="./icons/navigation/menu/gift_sets.svg"> Подарочные наборы</li>
+          <li class="menu__item"><img src="./icons/navigation/menu/events.svg"> События</li>
+          <li class="menu__item"><img src="./icons/navigation/menu/brands.svg"> Наши бренды</li>
         </ul>
       </div>
       <div class="navigation__set-locale">
         <img src="./icons/navigation/locale.svg">
         <button>RU</button>|<button>EN</button>
       </div>
-      <div class="navigation__links">
-        <div class="navigation__links__item">
-          <a href="#"><img src="./icons/navigation/links/like.svg"></a>
+      <div class="links">
+        <div class="links__item link-wrap">
+          <a class="square-link" href="#"><img src="./icons/navigation/links/like.svg"></a>
         </div>
-        <div class="navigation__links__item">
-          <a href="#"><img src="./icons/navigation/links/hunter.svg"></a>
+        <div class="links__item link-wrap">
+          <a class="square-link" href="#"><img src="./icons/navigation/links/hunter.svg"></a>
         </div>
-        <div class="navigation__links__item">
-          <a href="#"><img src="./icons/navigation/links/chest.svg"></a>
+        <div class="links__item link-wrap">
+          <a class="square-link" href="#"><img src="./icons/navigation/links/chest.svg"></a>
         </div>
-        <div class="navigation__links__item-lower">
-          <a href="#"><img src="./icons/navigation/links/plus.svg"> Собрать компьютер</a>
+        <div class="links__item-lower">
+          <a class="links__a" href="#"><img src="./icons/navigation/links/plus.svg"> Собрать компьютер</a>
         </div>
       </div>
 
